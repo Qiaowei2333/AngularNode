@@ -18,7 +18,7 @@ app.use((req, res, next) => {
   );
   next();
 });
-
+//mongodb secure pwd: Z1TlOWarqb5nULuX
 app.post("/api/posts", (req, res, next) => {
   const post = req.body;
   console.log(post);
