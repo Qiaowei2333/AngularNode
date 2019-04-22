@@ -6,10 +6,10 @@ const Post = require("./models/post");
 
 const app = express();
 
-//mongodb secure username: Eric   pwd: i6MfOTEv6XSTuscK
+//mongodb secure username: Eric   pwd: Jbf57TAD9MwbCzZI
 mongoose
   .connect(
-    "mongodb+srv://Eric:i6MfOTEv6XSTuscK@cluster0-scban.mongodb.net/node-angular?retryWrites=true",{ useNewUrlParser: true }
+    "mongodb+srv://Eric:Jbf57TAD9MwbCzZI@cluster0-scban.mongodb.net/node-angular?retryWrites=true",{ useNewUrlParser: true }
   )
   .then(() => {
     console.log("Connected to database!");
